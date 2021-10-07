@@ -521,12 +521,23 @@ img{
     margin-bottom: var(--mb-0-5);
 }
 
-.portfolio__description{
-    margin-bottom: var(--mb-0-75);
-}
-
 .portfolio__button:hover .button__icon{
     transform: translateX(.25rem);
+}
+
+.portfolio__grid{
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: var(--mb-0-75);
+}
+.portfolio__tech{
+    width: 50%;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.portfolio__tech__title{
+    font-size: var(--h4-font-size);
 }
 
 .swiper-button-prev::after,
