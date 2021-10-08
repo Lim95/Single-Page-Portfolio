@@ -137,10 +137,12 @@ img{
     max-width: 100%;
     height: auto;
 }
+
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
     padding: 2rem 0 4rem;
     height: 100vh;
+
 }
 
 .section__title {
