@@ -535,7 +535,7 @@ img{
 }
 .portfolio__tech{
     width: 50%;
-    list-style-type: circle;
+    list-style-type:disc;
     list-style-position: inside;
 }
 
