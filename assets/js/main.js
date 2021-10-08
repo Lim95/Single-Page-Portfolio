@@ -132,3 +132,7 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+// var scroll = new SmoothScroll('.nav__menu a[href*="#"]', {
+//     speed: 800
+// });
